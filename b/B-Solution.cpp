@@ -1,6 +1,6 @@
 #include <bits/stdc++.h>
 using namespace std;
- 
+
 /////////////////////////////////////////////////////////////////
 #define testcase                int t;cin>>t;while(t--)
 #define ll                      long long int
@@ -14,12 +14,12 @@ using namespace std;
 #define fastnfurious            ios::sync_with_stdio(0);cin.tie(0);
 #define puba                    push_back    
 /////////////////////////////////////////////////////////////////
- 
+
 void kaam()
 {
    ll n,flag=0;
    cin>>n;
-
+   vector<ll>v;
    if(n%2==0)
    {
        ll x=sqrt(n/2);
@@ -34,22 +34,16 @@ void kaam()
    }
    if(flag!=1)
    cout<<"NO"<<endl;
-   
-   
-  
+
+
+
 }
 int main()
 {   
     fastnfurious
- 
-    ll t=1;
-    cin>>t;
-
-    while(t--)
-    {
-      kaam();
-    }
-    
-     	
+    // freopen("testcase 6.txt", "r", stdin);
+    // freopen("answer 6.txt", "w", stdout);
+   testcase
+     kaam();	
 	return 0;
-}
+} 
