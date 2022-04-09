@@ -41,9 +41,7 @@ void kaam()
 int main()
 {   
     fastnfurious
-
-    freopen("testcase 2.txt","r", stdin);
-	freopen("answer2.txt", "w", stdout); 
+ 
     ll t=1;
     cin>>t;
 
