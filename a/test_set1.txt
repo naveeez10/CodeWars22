@@ -1,1 +1,11 @@
+3
+4
+abcd
+bbdd
+8
+codechef
+codewars
+1
+a
+b
 
