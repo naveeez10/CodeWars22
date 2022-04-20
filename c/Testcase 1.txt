@@ -1,0 +1,8 @@
+7
+abc
+abbbbacccccccb
+aabbcc
+ccbbaa
+abababab
+cccccc
+caaba
